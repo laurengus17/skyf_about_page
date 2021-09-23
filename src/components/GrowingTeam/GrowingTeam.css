@@ -1,3 +1,26 @@
+.fade_in_image {
+    opacity: 0;
+    animation: createBox 1s;
+    visibility: hidden;
+    transition: opacity 2s ease-out, animation 1s ease-in;
+    will-change: opacity, visibility;
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.fade_in_image.visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
 .growing_container {
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +58,4 @@
 
 .image_container {
     margin-right: 130px;
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
-
-
-.image_container.fade-in {
-    opacity: 1;
 }

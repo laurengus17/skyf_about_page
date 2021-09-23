@@ -16,13 +16,13 @@ const Origins = () => {
     return (
         <>
         <h1 className='origins_title'>Origins</h1>
-        <div className={`fade-in-origins ${visible ? 'visible' : ''}`}
+        <div className={`fade_in_origins ${visible ? 'visible' : ''}`}
             ref={DOM}>
             <p className='origins_tagline'>SkyFort was founded at the beginning of the pandemic to provide a secure tool 
             <br /> to keep people safe and connected while working from home.</p>
         </div>
         <div className='origins_spacing'></div>
-        <div className={`fade-in-origins-two ${visible ? 'visible' : ''}`}
+        <div className={`fade_in_origins_two ${visible ? 'visible' : ''}`}
             ref={DOM}>
             <p className='origins_statement'>We were founded out of a desperate need to help individuals, businesses, and institutions 
             <br />secure their connections to the internet, while remaining a privacy-first organization. Fast 

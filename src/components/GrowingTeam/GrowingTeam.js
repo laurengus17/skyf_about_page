@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect, useRef, useState }  from "react";
 import about from '../../images/about_img.png';
 import './GrowingTeam.css';
 
 const GrowingTeams = () => {
+    const [visible, setVisible] = useState(true);
+    const DOM = useRef();
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => setVisible(entry.isIntersecting));
+        });
+        observer.observe(DOM.current);
+        return () => observer.unobserve(DOM.current);
+    }, []);
+
     return (
         <div className='growing_container'>
+            <div className={`fade_in_image ${visible ? 'visible' : ''}`}
+            ref={DOM}>
             <div className='image_container'>
                 <img className='growing_image' src={about} alt='hiring' />
+            </div>
             </div>
             <div className='growing_text_container'>
                 <p className='growing_title'>WHAT WE'RE MADE OF</p>

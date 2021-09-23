@@ -24,7 +24,7 @@ const AllEmployees = () => {
 
     return (
         <>
-        <div className={`fade-in ${visible ? 'visible' : ''}`}
+        <div className={`fade_in ${visible ? 'visible' : ''}`}
             ref={DOM}
         >
             <div className='employees_each_container'>
