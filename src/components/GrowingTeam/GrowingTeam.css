@@ -1,3 +1,7 @@
+.growing_image {
+    display: inline-block;
+}
+
 .growing_title {
     color: #3347de;
     font-size: 20px;

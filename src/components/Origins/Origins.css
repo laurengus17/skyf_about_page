@@ -3,6 +3,10 @@
     font-size: 60px;
 }
 
+.origins_spacing {
+    margin-bottom: 40px;
+}
+
 .origins_tagline {
     color: #ffffff;
     font-size: 25px;
@@ -12,5 +16,5 @@
 
 .origins_statement {
     color: #c2c3c5;
-    font-size: 23px;
+    font-size: 22px;
 }
