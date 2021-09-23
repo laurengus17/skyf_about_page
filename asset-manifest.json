@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/about_page/static/css/main.90da473a.chunk.css",
-    "main.js": "/about_page/static/js/main.0b8df120.chunk.js",
-    "main.js.map": "/about_page/static/js/main.0b8df120.chunk.js.map",
-    "runtime-main.js": "/about_page/static/js/runtime-main.c0efc6be.js",
-    "runtime-main.js.map": "/about_page/static/js/runtime-main.c0efc6be.js.map",
-    "static/js/2.53bac420.chunk.js": "/about_page/static/js/2.53bac420.chunk.js",
-    "static/js/2.53bac420.chunk.js.map": "/about_page/static/js/2.53bac420.chunk.js.map",
-    "index.html": "/about_page/index.html",
-    "static/css/main.90da473a.chunk.css.map": "/about_page/static/css/main.90da473a.chunk.css.map",
-    "static/js/2.53bac420.chunk.js.LICENSE.txt": "/about_page/static/js/2.53bac420.chunk.js.LICENSE.txt",
-    "static/media/about_img.c2b67e28.png": "/about_page/static/media/about_img.c2b67e28.png",
-    "static/media/brandonM.49a588b1.png": "/about_page/static/media/brandonM.49a588b1.png",
-    "static/media/brandonV.dcb1a7f2.png": "/about_page/static/media/brandonV.dcb1a7f2.png",
-    "static/media/chrisR.10059dff.png": "/about_page/static/media/chrisR.10059dff.png",
-    "static/media/dannyL.990b2f01.png": "/about_page/static/media/dannyL.990b2f01.png",
-    "static/media/isaacD.8c62defe.png": "/about_page/static/media/isaacD.8c62defe.png",
-    "static/media/taliaR.2b1555f7.png": "/about_page/static/media/taliaR.2b1555f7.png",
-    "static/media/zachG.634adefe.png": "/about_page/static/media/zachG.634adefe.png"
+    "main.css": "/skyf_about_page/static/css/main.09cfe528.chunk.css",
+    "main.js": "/skyf_about_page/static/js/main.61bcd48e.chunk.js",
+    "main.js.map": "/skyf_about_page/static/js/main.61bcd48e.chunk.js.map",
+    "runtime-main.js": "/skyf_about_page/static/js/runtime-main.ec1001ec.js",
+    "runtime-main.js.map": "/skyf_about_page/static/js/runtime-main.ec1001ec.js.map",
+    "static/js/2.53bac420.chunk.js": "/skyf_about_page/static/js/2.53bac420.chunk.js",
+    "static/js/2.53bac420.chunk.js.map": "/skyf_about_page/static/js/2.53bac420.chunk.js.map",
+    "index.html": "/skyf_about_page/index.html",
+    "static/css/main.09cfe528.chunk.css.map": "/skyf_about_page/static/css/main.09cfe528.chunk.css.map",
+    "static/js/2.53bac420.chunk.js.LICENSE.txt": "/skyf_about_page/static/js/2.53bac420.chunk.js.LICENSE.txt",
+    "static/media/about_img.c2b67e28.png": "/skyf_about_page/static/media/about_img.c2b67e28.png",
+    "static/media/brandonM.49a588b1.png": "/skyf_about_page/static/media/brandonM.49a588b1.png",
+    "static/media/brandonV.dcb1a7f2.png": "/skyf_about_page/static/media/brandonV.dcb1a7f2.png",
+    "static/media/chrisR.10059dff.png": "/skyf_about_page/static/media/chrisR.10059dff.png",
+    "static/media/dannyL.990b2f01.png": "/skyf_about_page/static/media/dannyL.990b2f01.png",
+    "static/media/isaacD.8c62defe.png": "/skyf_about_page/static/media/isaacD.8c62defe.png",
+    "static/media/taliaR.2b1555f7.png": "/skyf_about_page/static/media/taliaR.2b1555f7.png",
+    "static/media/zachG.634adefe.png": "/skyf_about_page/static/media/zachG.634adefe.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0efc6be.js",
+    "static/js/runtime-main.ec1001ec.js",
     "static/js/2.53bac420.chunk.js",
-    "static/css/main.90da473a.chunk.css",
-    "static/js/main.0b8df120.chunk.js"
+    "static/css/main.09cfe528.chunk.css",
+    "static/js/main.61bcd48e.chunk.js"
   ]
 }
