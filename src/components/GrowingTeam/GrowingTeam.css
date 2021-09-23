@@ -1,3 +1,8 @@
+.growing_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .growing_image {
     display: inline-block;
     margin-left: 30px;
@@ -5,16 +10,29 @@
 
 .growing_title {
     color: #3347de;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .growing_tagline {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .growing_statement {
     color: #ffffff;
     font-size: 25px;
+    line-height: 1.5em;
+}
+
+.image_container,
+.growing_text_container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+.image_container {
+    margin-right: 130px;
 }
