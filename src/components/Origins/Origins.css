@@ -6,9 +6,11 @@
 .origins_tagline {
     color: #ffffff;
     font-size: 25px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
 }
 
 .origins_statement {
     color: #c2c3c5;
-    font-size: 25px;
+    font-size: 23px;
 }
