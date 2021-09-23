@@ -35,4 +35,11 @@
 
 .image_container {
     margin-right: 130px;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+
+.image_container.fade-in {
+    opacity: 1;
 }
